@@ -1,7 +1,7 @@
 
 from big_ol_pile_of_manim_imports import *
 
-class DrawPolygon(Scene):
+class DrawPolygon(SpecialThreeDScene):
     def construct(self):
         def Polygon3D(listOfPoints, z, aes_color = RED,opacity = 0.5):
             H1 =   listOfPoints
